@@ -1,0 +1,185 @@
+light:
+  # ============================================================
+  # Kelder (0/-/-)
+  # ============================================================
+  - name: Koridori valgus seinal
+    address: 0/0/1
+    state_address: 0/0/101
+  - name: Keldri valgus
+    address: 0/0/2
+    state_address: 0/0/102
+  - name: Koridori valgus riiulid
+    address: 0/0/3
+    state_address: 0/0/103
+  - name: Koridori valgus laes
+    address: 0/0/4
+    state_address: 0/0/104
+  - name: Abiruumi valgus
+    address: 0/0/5
+    state_address: 0/0/105
+  - name: Katlaruumi valgus
+    address: 0/0/6
+    state_address: 0/0/106
+  - name: Sahvri valgus
+    address: 0/0/7
+    state_address: 0/0/107
+  - name: Tehnoruumi valgus
+    address: 0/0/8
+    state_address: 0/0/108
+  - name: Keldri WC-esine valgus
+    address: 0/0/9
+    state_address: 0/0/109
+  - name: Puhkeruumi tuled paremal
+    address: 0/0/10
+    state_address: 0/0/110
+  - name: Basseini küljetuli
+    address: 0/0/12
+    state_address: 0/0/112
+  - name: Basseini otsatuli
+    address: 0/0/13
+    state_address: 0/0/113
+  - name: Trepihalli valgus
+    address: 0/0/17
+    state_address: 0/0/117
+  - name: Leiliruumi valgus
+    address: 0/0/18
+    state_address: 0/0/118
+  - name: WC valgus
+    address: 0/0/19
+    state_address: 0/0/119
+  - name: Puhkeruumi tuled vasakul
+    address: 0/0/20
+    state_address: 0/0/120
+  - name: Pesuruumi valgus
+    address: 0/0/21
+    state_address: 0/0/121
+
+  # ============================================================
+  # I korrus (1/-/-)
+  # ============================================================
+  - name: Köögilaua valgus
+    address: 1/0/0
+    state_address: 1/0/100
+  - name: Basseini lae fiiber
+    address: 1/0/1
+    state_address: 1/0/101
+  - name: Basseini lae valgus
+    address: 1/0/2
+    state_address: 1/0/102
+  - name: Vasaku garaaži töölaua valgus
+    address: 1/0/3
+    state_address: 1/0/103
+  - name: Garaaži valgus A
+    address: 1/0/4
+    state_address: 1/0/104
+  - name: Garaaži valgus B
+    address: 1/0/5
+    state_address: 1/0/105
+  - name: Numbri valgus
+    address: 1/0/6
+    state_address: 1/0/106
+  - name: Akvaariumi valgus
+    address: 1/0/7
+    state_address: 1/0/107
+  - name: Köögi laevalgus A
+    address: 1/0/8
+    state_address: 1/0/108
+  - name: Köögi laevalgus B
+    address: 1/0/9
+    state_address: 1/0/109
+  - name: Koridori valgus otsas
+    address: 1/0/10
+    state_address: 1/0/110
+  - name: Koridori maalivalgus
+    address: 1/0/11
+    state_address: 1/0/111
+  - name: Trepivalgus
+    address: 1/0/12
+    state_address: 1/0/112
+  - name: Tuulekoja valgus
+    address: 1/0/13
+    state_address: 1/0/113
+  - name: Tagaukse kohal valgus
+    address: 1/0/14
+    state_address: 1/0/114
+  - name: WC valgus
+    address: 1/0/15
+    state_address: 1/0/115
+  - name: Elutoa valgus laes
+    address: 1/0/16
+    state_address: 1/0/116
+  - name: Elutoa valgus seinal
+    address: 1/0/17
+    state_address: 1/0/117
+
+  # ============================================================
+  # II korrus (2/-/-)
+  # ============================================================
+  - name: Koridori valgus
+    address: 2/0/0
+    state_address: 2/0/100
+
+  # ============================================================
+  # Õu (3/-/-)
+  # ============================================================
+  - name: Terrassi valgus
+    address: 3/0/0
+    state_address: 3/0/100
+  - name: Õu tagaukse kohal valgus
+    address: 3/0/1
+    state_address: 3/0/101
+  - name: Õu peaukse kohal valgus
+    address: 3/0/2
+    state_address: 3/0/102
+
+switch:
+  # ============================================================
+  # Kelder (0/-/-)
+  # ============================================================
+  - name: Veekraan
+    address: 0/1/0
+    state_address: 0/1/100
+  - name: Gaasikraan
+    address: 0/1/1
+    state_address: 0/1/101
+  # Ilma state-aadressita
+  - name: Leilikeris
+    address: 0/1/2
+  - name: Aurukeris
+    address: 0/1/3
+  - name: Basseiniseadmed
+    address: 0/1/4
+  - name: Tehnoruumi pistikud
+    address: 0/1/5
+    state_address: 0/1/105
+  - name: Basseinipump
+    address: 0/1/6
+    state_address: 0/1/106
+  - name: Kogu kelder valgeks
+    address: 0/0/14
+    state_address: 0/0/114
+
+  # ============================================================
+  # I korrus (1/-/-)
+  # ============================================================
+  - name: Elutoa pistikupesad
+    address: 1/1/0
+    state_address: 1/1/100
+  - name: Köögi pistikud A
+    address: 1/1/1
+    state_address: 1/1/101
+  - name: Väliselektri
+    address: 1/1/2
+    state_address: 1/1/102
+  - name: Köögi pistikud B
+    address: 1/1/3
+    state_address: 1/1/103
+  - name: Talveaia pistikud A
+    address: 1/1/4
+    state_address: 1/1/104
+  - name: Talveaia pistikud B
+    address: 1/1/5
+    state_address: 1/1/105
+  - name: Talveaia pistikud C
+    address: 1/1/6
+    state_address: 1/1/106

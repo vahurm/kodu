@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GroupAddress-Export xmlns="http://knx.org/xml/ga-export/01">
+  <GroupRange Name="Kelder" RangeStart="1" RangeEnd="2047">
+    <GroupRange Name="Valgustus" RangeStart="1" RangeEnd="255">
+      <GroupAddress Name="Koridori valgus seinal" Address="0/0/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="Keldri valgus" Address="0/0/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="Koridori valgus riiulid" Address="0/0/3" DPTs="DPST-1-1" />
+      <GroupAddress Name="Koridori valgus laes" Address="0/0/4" DPTs="DPST-1-1" />
+      <GroupAddress Name="Abiruumi valgus" Address="0/0/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="Katlaruumi valgus" Address="0/0/6" DPTs="DPST-1-1" />
+      <GroupAddress Name="Sahvri valgus" Address="0/0/7" DPTs="DPST-1-1" />
+      <GroupAddress Name="Tehnoruumi valgus" Address="0/0/8" DPTs="DPST-1-1" />
+      <GroupAddress Name="Keldri WC-esine valgus" Address="0/0/9" DPTs="DPST-1-1" />
+      <GroupAddress Name="Puhkeruumi tuled paremal" Address="0/0/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="102 Basseini küljetuli" Address="0/0/12" DPTs="DPST-1-1" />
+      <GroupAddress Name="102 Basseini otsatuli" Address="0/0/13" DPTs="DPST-1-1" />
+      <GroupAddress Name="Kogu kelder valgeks" Address="0/0/14" DPTs="DPST-1-1" />
+      <GroupAddress Name="009 Trepihalli valgus" Address="0/0/17" DPTs="DPST-1-1" />
+      <GroupAddress Name="006 Leiliruumi valgus" Address="0/0/18" DPTs="DPST-1-1" />
+      <GroupAddress Name="007 WC valgus" Address="0/0/19" DPTs="DPST-1-1" />
+      <GroupAddress Name="002 Puhkeruumi tuled vasakul" Address="0/0/20" DPTs="DPST-1-1" />
+      <GroupAddress Name="004 Pesuruumi valgus" Address="0/0/21" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Koridori valgus seinal" Address="0/0/101" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Keldri valgus" Address="0/0/102" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Koridori valgus riiulid" Address="0/0/103" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Koridori valgus laes" Address="0/0/104" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Abiruumi valgus" Address="0/0/105" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Katlaruumi valgus" Address="0/0/106" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Sahvri valgus" Address="0/0/107" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Tehnoruumi valgus" Address="0/0/108" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Keldri WC-esine valgus" Address="0/0/109" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Puhkeruumi tuled paremal" Address="0/0/110" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Basseini küljetuli" Address="0/0/112" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Basseini otsatuli" Address="0/0/113" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Kogu kelder valgeks" Address="0/0/114" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Trepihallli valgus" Address="0/0/117" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Leiliruumi valgus" Address="0/0/118" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - WC valgus" Address="0/0/119" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Puhkeruumi tuled vasakul" Address="0/0/120" DPTs="DPST-1-1" />
+      <GroupAddress Name="STATE - Pesuruumi valgus" Address="0/0/121" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="Tehno" RangeStart="256" RangeEnd="511">
+      <GroupAddress Name="Veekraan - cmd" Address="0/1/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Gaasikraan - cmd" Address="0/1/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="Leilikeris" Address="0/1/2" />
+      <GroupAddress Name="Aurukeris" Address="0/1/3" />
+      <GroupAddress Name="Basseiniseadmed" Address="0/1/4" />
+      <GroupAddress Name="Tehnoruumi pistikud" Address="0/1/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="Basseinipump - cmd" Address="0/1/6" DPTs="DPST-1-1" />
+      <GroupAddress Name="Veekraan - state" Address="0/1/100" DPTs="DPST-1-11" />
+      <GroupAddress Name="Gaasikraan -state" Address="0/1/101" />
+      <GroupAddress Name="Tehnoruumi pistikud - state" Address="0/1/105" DPTs="DPST-1-1" />
+      <GroupAddress Name="Basseinipump - state" Address="0/1/106" DPTs="DPST-1-1" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="I korrus" RangeStart="2048" RangeEnd="4095">
+    <GroupRange Name="Valgus" RangeStart="2048" RangeEnd="2303">
+      <GroupAddress Name="Köögilaua valgus - cmd" Address="1/0/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Basseini lae fiiber - cmd" Address="1/0/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="Basseini lae valgus - cmd" Address="1/0/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="Vasaku garaaži töölaua valgus - cmd" Address="1/0/3" DPTs="DPST-1-1" />
+      <GroupAddress Name="Garaaži valgus A - cmd" Address="1/0/4" DPTs="DPST-1-1" />
+      <GroupAddress Name="Garaaži valgus B - cmd" Address="1/0/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="Numbri valgus - cmd" Address="1/0/6" DPTs="DPST-1-1" />
+      <GroupAddress Name="Akvaariumi valgus - cmd" Address="1/0/7" DPTs="DPST-1-1" />
+      <GroupAddress Name="Köögi laevalgus A - cmd" Address="1/0/8" />
+      <GroupAddress Name="Köögi laevalgus B - cmd" Address="1/0/9" />
+      <GroupAddress Name="Koridori valgus otsas - cmd" Address="1/0/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="Koridori maalivalgus - cmd" Address="1/0/11" DPTs="DPST-1-1" />
+      <GroupAddress Name="Trepivalgus - cmd" Address="1/0/12" DPTs="DPST-1-1" />
+      <GroupAddress Name="Tuulekoja valgus - cmd" Address="1/0/13" DPTs="DPST-1-1" />
+      <GroupAddress Name="Tagaukse kohal valgus - cmd" Address="1/0/14" DPTs="DPST-1-1" />
+      <GroupAddress Name="WC valgus - cmd" Address="1/0/15" DPTs="DPST-1-1" />
+      <GroupAddress Name="Elutoa valgus laes - cmd" Address="1/0/16" DPTs="DPST-1-1" />
+      <GroupAddress Name="Elutoa valgus seinal - cmd" Address="1/0/17" DPTs="DPST-1-1" />
+      <GroupAddress Name="Köögilaua valgus - state" Address="1/0/100" DPTs="DPST-1-1" />
+      <GroupAddress Name="Basseini lae fiiber - state" Address="1/0/101" DPTs="DPST-1-1" />
+      <GroupAddress Name="Basseini lae valgus - state" Address="1/0/102" DPTs="DPST-1-11" />
+      <GroupAddress Name="Vasaku garaaži töölaua valgus - state" Address="1/0/103" DPTs="DPST-1-11" />
+      <GroupAddress Name="Garaaži valgus A - state" Address="1/0/104" DPTs="DPST-1-11" />
+      <GroupAddress Name="Garaaži valgus B - state" Address="1/0/105" DPTs="DPST-1-11" />
+      <GroupAddress Name="Numbri valgus - state" Address="1/0/106" DPTs="DPST-1-11" />
+      <GroupAddress Name="Akvaariumi valgus - state" Address="1/0/107" DPTs="DPST-1-11" />
+      <GroupAddress Name="Köögi laevalgus A - state" Address="1/0/108" DPTs="DPST-1-1" />
+      <GroupAddress Name="Köögi laevalgus B - state" Address="1/0/109" />
+      <GroupAddress Name="Koridori valgus otsas - state" Address="1/0/110" DPTs="DPST-1-11" />
+      <GroupAddress Name="Koridori maalivalgus - state" Address="1/0/111" DPTs="DPST-1-11" />
+      <GroupAddress Name="Trepivalgus - state" Address="1/0/112" DPTs="DPST-1-11" />
+      <GroupAddress Name="Tuulekoja valgus - state" Address="1/0/113" DPTs="DPST-1-11" />
+      <GroupAddress Name="Tagaukse kohal valgus - state" Address="1/0/114" DPTs="DPST-1-11" />
+      <GroupAddress Name="WC valgus - state" Address="1/0/115" DPTs="DPST-1-11" />
+      <GroupAddress Name="Elutoa valgus laes - state" Address="1/0/116" DPTs="DPST-1-11" />
+      <GroupAddress Name="Elutoa valgus seinal - state" Address="1/0/117" DPTs="DPST-1-11" />
+    </GroupRange>
+    <GroupRange Name="Tehno" RangeStart="2304" RangeEnd="2559">
+      <GroupAddress Name="Elutoa pistikupesad - cmd" Address="1/1/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Köögi pistikud A - cmd" Address="1/1/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="Väiselekter - cmd" Address="1/1/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="Köögi pistikud B - cmd" Address="1/1/3" DPTs="DPST-1-1" />
+      <GroupAddress Name="Talveaia pistikud A - cmd" Address="1/1/4" DPTs="DPST-1-1" />
+      <GroupAddress Name="Talveaia pistikud B - cmd" Address="1/1/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="Talveaia pistikud C - cmd" Address="1/1/6" DPTs="DPST-1-1" />
+      <GroupAddress Name="Elutoa pistikupesad - state" Address="1/1/100" DPTs="DPST-1-11" />
+      <GroupAddress Name="Köögi pistikud A - state" Address="1/1/101" DPTs="DPST-1-11" />
+      <GroupAddress Name="Väiselekter - state" Address="1/1/102" DPTs="DPST-1-11" />
+      <GroupAddress Name="Köögi pistikud B - state" Address="1/1/103" DPTs="DPST-1-11" />
+      <GroupAddress Name="Talveaia pistikud A - state" Address="1/1/104" DPTs="DPST-1-11" />
+      <GroupAddress Name="Talveaia pistikud B - state" Address="1/1/105" DPTs="DPST-1-11" />
+      <GroupAddress Name="Talveaia pistikud C - state" Address="1/1/106" DPTs="DPST-1-11" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="II korrus" RangeStart="4096" RangeEnd="6143">
+    <GroupRange Name="Valgus" RangeStart="4096" RangeEnd="4351">
+      <GroupAddress Name="Koridori valgus - cmd" Address="2/0/0" />
+      <GroupAddress Name="Koridori valgus - state" Address="2/0/100" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="Õu" RangeStart="6144" RangeEnd="8191">
+    <GroupRange Name="Valgus" RangeStart="6144" RangeEnd="6399">
+      <GroupAddress Name="Terrassi valgus - cmd" Address="3/0/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Tagaukse kohal - cmd" Address="3/0/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="Peaukse kohal - cmd" Address="3/0/2" />
+      <GroupAddress Name="Terrassi valgus - state" Address="3/0/100" DPTs="DPST-1-11" />
+      <GroupAddress Name="Tagaukse kohal - state" Address="3/0/101" DPTs="DPST-1-11" />
+      <GroupAddress Name="Peaukse kohal - state" Address="3/0/102" />
+    </GroupRange>
+    <GroupRange Name="Tehno" RangeStart="6400" RangeEnd="6655" />
+  </GroupRange>
+</GroupAddress-Export>
