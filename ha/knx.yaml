@@ -111,6 +111,12 @@ light:
   - name: Elutoa valgus seinal
     address: 1/0/17
     state_address: 1/0/117
+  - name: Talveaia valgus A
+    address: 1/0/18
+    state_address: 1/0/118
+  - name: Talveaia valgus B
+    address: 1/0/19
+    state_address: 1/0/119
 
   # ============================================================
   # II korrus (2/-/-)
